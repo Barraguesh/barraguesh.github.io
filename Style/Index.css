@@ -4,3 +4,8 @@ h1:hover{
 h2:hover{
     color: green;
 }
+button:hover{
+  width: 0 auto;
+  text-decoration: overline;
+  color: #C0C0C0;
+}
