@@ -1,0 +1,8 @@
+@font-face {
+    font-family: LiberationSans;
+    src: url(fonts/liberation_sans.ttf);
+}
+
+div {
+    font-family: LiberationSans;
+}
