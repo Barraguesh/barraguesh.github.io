@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html>
+    <!-- COMPILAR SASS bootstrap -->
 
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Daniel Barragues</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <link rel="stylesheet" href="style/css/custom.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     </head>
 
-    <body>
-        <div>
-            Page under construction test
+    <body class="bg-light">
+        <div class="container-fluid">
+            <h1 class="mb-5">Página en proceso de construcción</h1>
+            <div class="row p-4">
+                <section class="offset-md-1 col-md-4 card p-3">
+                    <h1 class="text-center">Diseños</h1>
+                    <hr>
+                    <p>En mi tiempo libre me gusta crear diseños variados. Como el internet está lleno de páginas mal
+                        estructuradas o con diseños muy pobres, he decidido compartir mi trabajo bajo una licencia MIT
+                        para
+                        ayudar, dar ideas o dar un front-end a aquellos que no sepan muy bien como quieren que sea su
+                        página, o que no saben como hacerla más bonita.</p>
+                    <a class="btn btn-primary" target="_blank" href="https://github.com/Barraguesh/Designs">Ver
+                        los diseños</a>
+                </section>
+                <section class="offset-md-1 col-md-4 card p-3">
+                    <h1 class="text-center">Trabajos del grado</h1>
+                    <hr>
+                    <p>Durante mis estudios en el grado de Desarrollo de Aplicaciones Web (DAW) hice en grupo un total
+                        de 4 proyectos. Decidí subirlos a GitHub para poder ponerlos en mi CV de forma fácil.</p>
+                    <a class="btn btn-primary" href="#schoolProjects">Ver
+                        los trabajos</a>
+                </section>
+            </div>
+            <hr class="mt-5">
+            <div class="row p-4">
+                <section id="schoolProjects" class="w-100">
+                    <h1 class="text-center mb-5">Trabajos del grado</h1>
+                    <div class="container">
+                        <div class="row justify-content-around">
+                            <div class="w-22 card p-3">
+                                <h4>Página de pedidos hostelería (Reto 4)</h4>
+                                <p>Descripcion</p>
+                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                            </div>
+                            <div class="w-22 card p-3">
+                                <h4>Stack Overflow (Reto 3)</h4>
+                                <p>Descripcion</p>
+                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                            </div>
+                            <div class="w-22 card p-3">
+                                <h4>Servidor Web Siemens (Reto 2)</h4>
+                                <p>Descripcion</p>
+                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                            </div>
+                            <div class="w-22 card p-3">
+                                <h4>Gestor E-Sports (Reto 1)</h4>
+                                <p>Descripcion</p>
+                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row p-4">
+                <section class="offset-md-3 col-md-6">
+                    <h1 class="text-center">Contacto</h1>
+
+                </section>
+            </div>
         </div>
-        <span>Page under construction</span>
     </body>
 
 </html>

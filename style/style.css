@@ -3,10 +3,6 @@
     src: url(fonts/liberation_sans.ttf);
 }
 
-div {
+* {
     font-family: LiberationSans, sans-serif;
-}
-
-span {
-    font-family: sans-serif;
 }
