@@ -10,6 +10,15 @@
     font-family: LiberationSans, sans-serif;
 }
 
+.s-8 {
+    font-size: 8em;
+}
+
+//Tamaños personalizados
+p {
+    margin: 3px !important;
+}
+
 //Edicion de colores para el diseño
 .bg-light {
     background-color: rgba(248, 249, 250, .91) !important;
@@ -18,6 +27,12 @@
 //Anchura personalizada
 .w-22 {
     width: 22%;
+}
+
+#designs:hover,
+#projects:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 //Import bootstrap

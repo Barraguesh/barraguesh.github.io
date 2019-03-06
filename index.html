@@ -1,82 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <!-- COMPILAR SASS bootstrap -->
+<!-- COMPILAR SASS bootstrap -->
 
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Daniel Barragues</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/css/custom.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daniel Barragues</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/css/custom.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/usm/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
 
-    <body class="bg-light">
-        <div class="container-fluid">
-            <h1 class="mb-5">Página en proceso de construcción</h1>
-            <div class="row p-4">
-                <section class="offset-md-1 col-md-4 card p-3">
-                    <h1 class="text-center">Diseños</h1>
-                    <hr>
-                    <p>En mi tiempo libre me gusta crear diseños variados. Como el internet está lleno de páginas mal
-                        estructuradas o con diseños muy pobres, he decidido compartir mi trabajo bajo una licencia MIT
-                        para
-                        ayudar, dar ideas o dar un front-end a aquellos que no sepan muy bien como quieren que sea su
-                        página, o que no saben como hacerla más bonita.</p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/Barraguesh/Designs">Ver
-                        los diseños</a>
-                </section>
-                <section class="offset-md-1 col-md-4 card p-3">
-                    <h1 class="text-center">Trabajos del grado</h1>
-                    <hr>
-                    <p>Durante mis estudios en el grado de Desarrollo de Aplicaciones Web (DAW) hice en grupo un total
-                        de 4 proyectos. Decidí subirlos a GitHub para poder ponerlos en mi CV de forma fácil.</p>
-                    <a class="btn btn-primary" href="#schoolProjects">Ver
-                        los trabajos</a>
-                </section>
+<body class="bg-light">
+    <h1 class="mb-5">Página en proceso de construcción</h1>
+    <div class="container-fluid">
+        <section class="row bg-dark pt-5 pb-5 mb-5">
+            <div class="w-100 text-center">
+                <br><br>
+                <h1 class="text-white s-8">Soy <span id="changing-text" class="text-info">creatividad</span></h1>
+                <br><br>
             </div>
-            <hr class="mt-5">
-            <div class="row p-4">
-                <section id="schoolProjects" class="w-100">
-                    <h1 class="text-center mb-5">Trabajos del grado</h1>
-                    <div class="container">
-                        <div class="row justify-content-around">
-                            <div class="w-22 card p-3">
-                                <h4>Página de pedidos hostelería (Reto 4)</h4>
-                                <p>Descripcion</p>
-                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
-                            </div>
-                            <div class="w-22 card p-3">
-                                <h4>Stack Overflow (Reto 3)</h4>
-                                <p>Descripcion</p>
-                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
-                            </div>
-                            <div class="w-22 card p-3">
-                                <h4>Servidor Web Siemens (Reto 2)</h4>
-                                <p>Descripcion</p>
-                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
-                            </div>
-                            <div class="w-22 card p-3">
-                                <h4>Gestor E-Sports (Reto 1)</h4>
-                                <p>Descripcion</p>
-                                <a class="btn btn-info" href="#schoolProjects">Ver</a>
-                            </div>
+        </section>
+
+        <section class="row p-4 justify-content-around">
+            <section id="designs" class="col-sm-4 card p-3">
+                <h1 class="text-center">Diseños</h1>
+                <hr>
+                <p>El front-end me maravilla, por eso he creado un repositorio con
+                    diferentes diseños que he hecho para quien necesite inspiración. Todo bajo licencia MIT.</p>
+            </section>
+            <section id="projects" class="col-sm-4 card p-3">
+                <h1 class="text-center">Trabajos del grado</h1>
+                <hr>
+                <p>Durante mi estudio en el grado de Desarrollo de Aplicaciones Web (DAW) hice en grupo un total
+                    de 4 proyectos. Decidí subirlos a GitHub para poder ponerlos en mi CV de forma fácil.</p>
+            </section>
+        </section>
+
+        <hr class="mt-5">
+
+        <section class="row p-4">
+            <div class="offset-sm-2 col-sm-8 d-flex flex-column align-items-center no-wrap">
+                <h1 class="text-center mb-3">Sobre mí</h1>
+                <img class="rounded-circle mb-4" src="./media/profile.jpg" height="250">
+                <div class="card p-3">
+                    <p>Soy Daniel. Apasionado de la tecnología, del cuidado del código, del diseño simple
+                        e intuitivo y del software libre. Me gusta colaborar en proyectos y diseñar front-end en mi
+                        tiempo libre. Creo en un internet libre, justo y gratuito.</p>
+                    <p>Intento crear webs que destacan por su facilidad de uso. Ya sea combinando colores que destaquen
+                        contenido y ayuden a la navegación o simplificando la interfaz para no sobrecargar al usuario.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mt-5">
+
+        <section class="row p-4">
+            <div class="offset-sm-3 col-sm-6">
+                <h1 class="text-center">Experiencia</h1>
+
+            </div>
+        </section>
+
+        <hr class="mt-5">
+
+        <section class="row p-4">
+            <div class="offset-sm-3 col-sm-6">
+                <h1 class="text-center">Estudios</h1>
+
+            </div>
+        </section>
+
+        <hr class="mt-5">
+
+        <section class="row p-4">
+            <div id="school-projects" class="w-100">
+                <h1 class="text-center mb-5">Trabajos del grado</h1>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="w-22 card p-3">
+                            <h4>Página de pedidos hostelería (Reto 4)</h4>
+                            <p>Descripcion</p>
+                            <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                        </div>
+                        <div class="w-22 card p-3">
+                            <h4>Stack Overflow (Reto 3)</h4>
+                            <p>Descripcion</p>
+                            <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                        </div>
+                        <div class="w-22 card p-3">
+                            <h4>Servidor Web Siemens (Reto 2)</h4>
+                            <p>Descripcion</p>
+                            <a class="btn btn-info" href="#schoolProjects">Ver</a>
+                        </div>
+                        <div class="w-22 card p-3">
+                            <h4>Gestor E-Sports (Reto 1)</h4>
+                            <p>Descripcion</p>
+                            <a class="btn btn-info" href="#schoolProjects">Ver</a>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
-            <div class="row p-4">
-                <section class="offset-md-3 col-md-6">
-                    <h1 class="text-center">Contacto</h1>
+        </section>
 
-                </section>
+        <hr class="mt-5">
+
+        <section class="row p-4">
+            <div class="offset-sm-3 col-sm-6">
+                <h1 class="text-center">Contacto</h1>
+
             </div>
-        </div>
-    </body>
+        </section>
+    </div>
+</body>
 
 </html>
