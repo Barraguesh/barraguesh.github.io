@@ -23,20 +23,20 @@ p {
     width: 22%
 }
 
-#school_projects:hover,
-#projects:hover,
-#designs:hover {
+.box_element:hover {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
     .tittle {
         font-size: 4em
     }
 }
 
 /*!
+ * THIS BOOTSTRAP CSS HAS BEEN EDITED BE CAREFUL
+ *
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
