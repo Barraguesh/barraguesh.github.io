@@ -18,10 +18,15 @@ $(function () {
             x = 0;
         }
     }, 3000);
-    $("#school_projects").click(function () {
+    $("#school_projects_card").click(function () {
         $("html, body").animate({
-            scrollTop: $("#school-projects").offset().top
-        }, 700);
+            scrollTop: $("#school_projects").offset().top
+        }, 800);
+    });
+    $("#goals_card").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#goals").offset().top
+        }, 900);
     });
     $("#projects").click(function () {
         window.open("https://github.com/Barraguesh/Projects");

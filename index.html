@@ -20,7 +20,6 @@
 </head>
 
 <body class="bg-light">
-    <h1 class="mb-5">Página en proceso de construcción</h1>
     <div class="container-fluid">
         <section class="jumbotron row bg-dark">
             <h1 class="w-100 text-center text-white tittle py-4">Soy <span id="changing-text"
@@ -29,12 +28,19 @@
         </section>
 
         <section class="row p-4 justify-content-around">
-            <section id="school_projects" class="col-md my-2 mx-md-2 mx-0 card p-3 box_element">
+            <section id="school_projects_card" class="col-md my-2 mx-md-2 mx-0 card p-3 box_element">
                 <h2 class="text-center">Trabajos del grado</h2>
                 <hr>
                 <p>Durante mi estudio en el grado de Desarrollo de Aplicaciones Web (DAW) hice en grupo un
                     total
                     de 4 proyectos. Decidí subirlos a GitHub para poder ponerlos en mi CV de forma fácil.</p>
+                <button class="mt-2 btn btn-info d-md-none">Ver</button>
+            </section>
+            <section id="goals_card" class="col-md my-2 mx-md-2 mx-0 card p-3 box_element">
+                <h2 class="text-center">Logros personales</h2>
+                <hr>
+                <p>Todos nos ponemos metas y de vez en cuando conseguimos realizar acciones que antes solo podíamos
+                    imaginar. Esta lista recopila algún que otro sueño hecho realidad.</p>
                 <button class="mt-2 btn btn-info d-md-none">Ver</button>
             </section>
             <section id="projects" class="col-md my-2 mx-md-2 mx-0 card p-3 box_element">
@@ -55,8 +61,8 @@
 
         <hr class="mt-5">
 
-        <section class="row col-md-9 mx-auto px-0 flex-column align-items-center no-wrap">
-            <h1 class="text-center mb-5">Sobre mí</h1>
+        <section class="row col-md-5 mx-auto px-0 flex-column align-items-center no-wrap">
+            <h1 class="text-center mb-3">Sobre mí</h1>
             <img class="rounded-circle mb-4" src="./media/profile.jpg" height="250">
             <div class="card p-3">
                 <p>Soy Daniel. Me apasiona la tecnología, la ciberseguridad, el cuidado del código, el
@@ -165,7 +171,7 @@
 
         <hr class="mt-5">
 
-        <section id="school-projects" class="row">
+        <section id="school_projects" class="row flex-column">
             <h1 class="mx-auto mb-5">Trabajos del grado</h1>
             <div class="col-11 mx-auto">
                 <div class="row">
@@ -222,9 +228,21 @@
 
         <hr class="mt-5">
 
-        <section class="row p-4">
-            <h1 class="mx-auto mb-5">Logros personales</h1>
-
+        <section id="goals" class="row col-md-5 px-0 mx-auto flex-column mb-5">
+            <h1 class="mx-auto mb-3">Logros personales</h1>
+            <i class="mx-auto fa-4x fa fa-trophy mb-4" aria-hidden="true" style="color: gold;"></i>
+            <ul>
+                <li class="list-group-item">Me encuentro en el Top 1000 comentaristas de Amazon. (<a target="_blank"
+                        href="https://www.amazon.es/gp/profile/amzn1.account.AGHK3ZK52U6U7R7J3TN2TJT4EYDA?ie=UTF8&ref_=sv_ys_4">link</a>)
+                </li>
+                <li class="list-group-item">He contribuido redactando un artículo en la página de noticias de
+                    ‘’Microsoft Insider’’ (<a target="_blank"
+                        href="https://www.microsoftinsider.es/61028/el-rincon-del-lector-microsoft-vuelve-sus-origenes-por-daniel-barragues/">link</a>)
+                </li>
+                <li class="list-group-item">He sido invitado, como asistente, a los ‘’Premios Xataka 2016’’ por
+                    Microsoft.</li>
+                <li class="list-group-item">He pertenecido al consejo escolar del conservatorio ‘’Jesús Guridi’’.</li>
+            </ul>
         </section>
 
         <!--<hr class="mt-5">
@@ -236,11 +254,12 @@
             </div>
         </section>-->
 
-        <section class="row p-4 mt-5">
-            <div class="offset-md-3 col-md-6">
+        <section class="row">
+            <div class="mx-auto">
                 <h1 class="text-center"><a href="https://github.com/Barraguesh/barraguesh.github.io"><i
                             class="fa-2x fab fa-github text-dark"></i></a></h1>
-
+                <p class="mt-4 mb-3">Hecho desde Vitoria-Gasteiz con <i class="fa fa-heart" aria-hidden="true"
+                        style="color: red;"></i></p>
             </div>
         </section>
     </div>
