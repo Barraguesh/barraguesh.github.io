@@ -23,10 +23,10 @@ $(function () {
             scrollTop: $("#school-projects").offset().top
         }, 700);
     });
-    $("#designs").click(function () {
-        window.open("https://github.com/Barraguesh/Designs");
+    $("#projects").click(function () {
+        window.open("https://github.com/Barraguesh/Projects");
     });
     $("#designs").click(function () {
-        window.open("https://github.com/Barraguesh/Projects");
+        window.open("https://github.com/Barraguesh/Designs");
     });
 });
