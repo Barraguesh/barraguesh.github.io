@@ -18,11 +18,15 @@ $(function () {
             x = 0;
         }
     }, 3000);
-    $("#designs").click( function() {
+    $("#school_projects").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#school-projects").offset().top
+        }, 700);
+    });
+    $("#designs").click(function () {
         window.open("https://github.com/Barraguesh/Designs");
     });
-
-    $("#projects").click( function() {
-        $("html, body").animate({ scrollTop: $("#school-projects").offset().top }, 700);
+    $("#designs").click(function () {
+        window.open("https://github.com/Barraguesh/Projects");
     });
 });
