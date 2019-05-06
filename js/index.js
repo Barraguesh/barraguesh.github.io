@@ -22,7 +22,7 @@ $(function () {
             });
             x = 0;
         }
-    }, 3000);
+    }, 2500);
     $("#school_projects_card").click(function () {
         $("html, body").animate({
             scrollTop: $("#school_projects").offset().top
