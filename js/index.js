@@ -11,7 +11,7 @@ $(function () {
                 $("#changing-text").text("minimalismo").fadeIn(200);
             });
             x = 2;
-        } else if (x == 1) {
+        } else if (x == 2) {
             $("#changing-text").fadeOut(50, function () {
                 $("#changing-text").text("dedicación").fadeIn(200);
             });
