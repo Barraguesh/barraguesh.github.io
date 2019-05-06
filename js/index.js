@@ -11,6 +11,11 @@ $(function () {
                 $("#changing-text").text("minimalismo").fadeIn(200);
             });
             x = 2;
+        } else if (x == 1) {
+            $("#changing-text").fadeOut(50, function () {
+                $("#changing-text").text("dedicación").fadeIn(200);
+            });
+            x = 3;
         } else {
             $("#changing-text").fadeOut(50, function () {
                 $("#changing-text").text("creatividad").fadeIn(200);
